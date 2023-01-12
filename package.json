@@ -1,11 +1,11 @@
 {
   "name": "npmpaquetes",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "node" : " node src/index.js && node src/index.js"
+    "node": " node src/index.js && node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,8 @@
     "url": "https://github.com/jios325/npmPaquetes/issues"
   },
   "homepage": "https://github.com/jios325/npmPaquetes#readme",
-  "bin" : {
-    "npmPaquetes" : "./bin/global.js"
+  "bin": {
+    "npmPaquetes": "./bin/global.js"
   },
   "preferGlobal": true,
   "dependencies": {
