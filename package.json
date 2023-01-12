@@ -1,0 +1,37 @@
+{
+  "name": "npmpaquetes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "node" : " node src/index.js && node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jios325/npmPaquetes.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
+  "author": "Carlos Salgado <juancarlos@elitekode.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jios325/npmPaquetes/issues"
+  },
+  "homepage": "https://github.com/jios325/npmPaquetes#readme",
+  "bin" : {
+    "npmPaquetes" : "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "json-server": "^0.17.1",
+    "moment": "^2.29.4",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
+}
